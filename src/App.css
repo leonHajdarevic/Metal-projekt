@@ -1,0 +1,125 @@
+body {
+  background-color: darkslategray;
+}
+
+.slika {
+  text-align: center;
+  background-color: black;
+}
+.slika img {
+  width: 40%;
+}
+
+.navbar {
+  background-color: crimson;
+  height: 55px;
+}
+
+.head {
+  height: 50px;
+  text-align: center;
+  margin: 0;
+}
+
+.head h1 {
+  margin: 0;
+}
+
+.footer {
+  background-color: crimson;
+  height: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+
+a:visited{
+  color: darkgray;
+}
+
+a{
+  color: black;
+  margin: 10px;
+  margin-top: 15px;
+  font-size: 20px
+}
+
+a:hover{
+  color: lightgray;
+}
+
+
+
+.nav{
+  display: block;
+  height: 55px;
+  padding-left: 20%;
+}
+.nav tr{
+  height: 50px;
+}
+
+.navbars{
+  display: flex;
+  background-color: crimson;
+  height: 55px;
+  align-content: center;
+  justify-content: center;
+}
+
+.Header{
+  background-color: rgb(156, 5, 5);
+  margin: 0;
+}
+
+.Header h3{
+  margin-top: 0;
+}
+
+.forma{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  background-color: rgb(156, 5, 5);
+  border: solid black 3px;
+  border-radius: 5%;
+}
+
+.ispis{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.isp{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(156, 5, 5);
+  border: solid black 3px;
+  border-radius: 5%;
+  gap: 2px;
+}
+.isp td{
+  display: flex;
+  justify-content: center;
+}
+.ime{
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+.td{
+  background-color: white;
+  flex-grow: 4;
+}
+
+.isp h1{
+  margin-top: 0;
+}
+
